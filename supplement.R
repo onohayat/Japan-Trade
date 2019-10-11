@@ -14,5 +14,5 @@ library(forcats)
 library(geojsonio)
 shapeurl <- "https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json"
 WorldCountry <- geojson_read(shapeurl, what = "sp")
-data1.2 <- read.csv("Finalized.csv")
-data2 <- read.csv("Finalized2.csv")
+data1.2 <- read.csv("Finalizeddata1.2.csv")
+data2 <- read.csv("Finalizeddata2.csv")
